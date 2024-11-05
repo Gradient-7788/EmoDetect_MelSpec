@@ -11,7 +11,7 @@ This directory contains the code for the project titled:
 
 All these notebooks were run on Jupyter Notebook with the appropriate settings, all links to these publicly avalaible notebooks are located in the cooresponding folders.
 
-The division of methodology, and the cooresponding location of code:
+The division of methodology, and the corresponding location of code:
 1. Dataset Preprocessing: ./PreprocessingInput/
 2. Generation of spectrograms and integration of pipeline:
     1. For Multiclass classification task: ./FineTuneCNNs/Multiclass/ contains code of fine tuning of the various different models
@@ -21,3 +21,22 @@ The division of methodology, and the cooresponding location of code:
 5. Training, Confusion Matrix and output generation:
     1. Generate predictions on all testing dataset created out of the overall dataframe.
     2. Encodings and Decodings (one hot) task: ... contains the overall total training, encodings and confusion matrix codes.
+
+### Installation
+
+1. Clone or download the repository:
+   ```sh
+   git clone [https://github.com/surankan-de/DA221M](https://github.com/Gradient-7788/Gradient/blob/main/app.py)
+   ```
+2. Navigate to the project directory
+3. To run the streamlit application:
+  ```sh
+      streamlit run app.py
+  ```
+## Features 
+1. Predicts the mood of the speaker using the speech.
+## Machine Learning/ AI Concepts Used 
+1. DFTs, FFTs,
+2. Mel-Spectrograms,
+3. Singular Value Decomposition
+4. EfficientNetB7
