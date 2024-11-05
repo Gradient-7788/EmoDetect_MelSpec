@@ -14,6 +14,7 @@ All these notebooks were run on Jupyter Notebook with the appropriate settings, 
 ## Description 
 This project focuses on developing a speech emotion recognition system using spectrograms and deep learning models, specifically EfficientNetB7 and ResNet, to classify emotions from audio data. The goal is to enhance human-robot interaction by accurately recognizing and understanding emotional states expressed through speech.
 
+[Testing_model.jpg]
 The division of methodology, and the corresponding location of code:
 1. Dataset Preprocessing: ./PreprocessingInput/
 2. Generation of spectrograms and integration of pipeline:
