@@ -1,0 +1,10 @@
+# Datasets used in this project
+
+* Crowd-sourced Emotional Mutimodal Actors Dataset (Crema-D)
+[(https://www.kaggle.com/datasets/ejlok1/cremad)]
+* Ryerson Audio-Visual Database of Emotional Speech and Song (Ravdess)
+[(https://www.kaggle.com/datasets/uwrfkaggler/ravdess-emotional-speech-audio)]
+* Surrey Audio-Visual Expressed Emotion (Savee)
+[(https://www.kaggle.com/datasets/ejlok1/toronto-emotional-speech-set-tess)]
+* Toronto emotional speech set (Tess)
+[(https://www.kaggle.com/datasets/ejlok1/surrey-audiovisual-expressed-emotion-savee)]
