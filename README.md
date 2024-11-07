@@ -2,8 +2,7 @@
 This work is done by Team Gradient as part of course project for DA221M Aug-Nov 2024 IIT Guwahati.
 
 Team Members: <br>
-    Yesh Lohchab 230102115 \
-    Vanshika Mittal 230102109
+    Yesh Lohchab 230102115 
 
 This directory contains the code for the project titled: 
 
