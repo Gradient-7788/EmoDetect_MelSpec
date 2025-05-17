@@ -26,19 +26,50 @@ EmoDetect_MelSpec/
 
 ---
 
-## Description 
-This project focuses on developing a speech emotion recognition system using spectrograms and deep learning models, specifically EfficientNetB7 and ResNet, to classify emotions from audio data. The goal is to enhance human-robot interaction by accurately recognizing and understanding emotional states expressed through speech.
+## 📄 Description
 
-The division of methodology, and the corresponding location of code:
-1. Dataset Preprocessing: ./PreprocessingInput/
-2. Generation of spectrograms and integration of pipeline:
-    1. For Multiclass classification task: ./FineTuneCNNs/Multiclass/ contains code of fine tuning of the various different models
-    2. For Binary classification task: ./FineTuneCNNs/Binary/ contains code of fine tuning of the various different models
-3. Audio Augmentation Techniques employed:
-    1. For Data augmentation task: ... contains the code of various augmentation techniques employed
-5. Training, Confusion Matrix and output generation:
-    1. Generate predictions on all testing dataset created out of the overall dataframe.
-    2. Encodings and Decodings (one hot) task: ... contains the overall total training, encodings and confusion matrix codes.
+This project implements a **Speech Emotion Recognition (SER)** system that classifies emotional states from spoken audio using **Mel-spectrograms** and **deep learning architectures**. The core objective is to enhance **human-robot interaction** by enabling machines to understand emotional context from speech.
+
+The system leverages **EfficientNetB7** and **ResNet** models fine-tuned on spectrogram representations of audio signals. It supports both **binary** and **multiclass** emotion classification tasks and includes an end-to-end pipeline from preprocessing to inference.
+
+---
+
+## 🧩 Project Structure and Methodology
+
+The following outlines the core components and their corresponding locations based on the current repository:
+
+1. **Dataset Preprocessing**  
+   - Implemented within the notebook:  
+     📁 `notebook/Speech_Emotion_Detection.ipynb`  
+   - Functions include:
+     - Audio loading and trimming  
+     - Normalization  
+     - Label encoding  
+
+2. **Spectrogram Generation and Model Pipeline**  
+   - **Mel-Spectrogram Extraction** and input preparation are carried out in the same notebook.  
+   - Feature extraction and augmentation are applied before model training.
+
+3. **Model Training and Testing**  
+   - Training is implemented inside the Jupyter notebook.  
+   - Models include deep CNNs based on EfficientNet and ResNet variants (training setup visible in `Speech_Emotion_Detection.ipynb`).
+
+4. **Visualization and Evaluation**  
+   - Performance metrics and confusion matrix are plotted in the notebook and stored in:  
+     📁 `metrics/Final_metrics.png`  
+   - Intermediate results and insights are documented in:  
+     📁 `metrics/Report_DS.pdf`  
+
+5. **Inference Script**  
+   - A standalone Python file for model inference is available:  
+     📄 `app.py`  
+   - This script loads the trained model and processes new audio inputs for prediction.
+
+---
+
+> **Note:** While this repository does not yet reflect subfolders for binary/multiclass fine-tuning, the entire training and evaluation pipeline is modular and easily extendable to incorporate such separations.
+
+
 
 ---
 
