@@ -3,9 +3,10 @@ numpy
 sounddevice
 librosa
 tensorflow 
-scipy
+scikit-learn
 tensorflow
 keras
 pandas
 matplotlib
 seaborn
+scipy
